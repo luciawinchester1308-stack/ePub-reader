@@ -1,6 +1,6 @@
 /* EPUB Reader service worker: offline shell + share target.
    Bump VERSION when you change index.html so installed copies refresh. */
-const VERSION = 'v11';
+const VERSION = 'v12';
 const SHELL = 'epub-shell-' + VERSION;
 const FONTS = 'epub-fonts'; // downloaded Google Fonts; never purged on updates
 const LIB = 'epub-lib'; // user's saved books; never purged on updates
